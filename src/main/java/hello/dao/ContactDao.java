@@ -10,13 +10,13 @@ import hello.been.Contact;
 
 import java.util.*;
 
-import org.springframework.stereotype.Repository;
+
+import org.springframework.stereotype.Component;
 
 /**
  * @author Dmitriy Roy
  *
  */
-@Repository
 public class ContactDao implements ContactDaoInterface {
 
 
@@ -30,6 +30,7 @@ public class ContactDao implements ContactDaoInterface {
         String SQL_QUERY = "SELECT id as \"contId\",name "
                          + "FROM test_database.users "
                          + "WHERE id = ? ";
+
 //        Contact contact = (Contact) jdbcTemplate.queryForObject(SQL_QUERY,
 //                new Object[]{contactId},
 //                new BeanPropertyRowMapper(Contact.class));
