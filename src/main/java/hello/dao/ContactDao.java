@@ -12,6 +12,10 @@ import java.util.*;
 
 import org.springframework.stereotype.Repository;
 
+/**
+ * @author Dmitriy Roy
+ *
+ */
 @Repository
 public class ContactDao implements ContactDaoInterface {
 

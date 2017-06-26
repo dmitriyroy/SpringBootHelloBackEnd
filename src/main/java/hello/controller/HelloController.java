@@ -7,6 +7,10 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author Dmitriy Roy
+ *
+ */
 @RestController
 @RequestMapping("/hello")
 public class HelloController {

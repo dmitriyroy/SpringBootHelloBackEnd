@@ -5,6 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+/**
+ * @author Dmitriy Roy
+ *
+ */
 @Data
 @AllArgsConstructor
 public class Contact {
