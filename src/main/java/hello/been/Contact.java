@@ -1,6 +1,5 @@
 package hello.been;
 
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,13 +9,18 @@ import lombok.Data;
  *
  */
 @Data
-@AllArgsConstructor
+//@AllArgsConstructor
 public class Contact {
 
     @JsonProperty("contId")
     private int contId;
     @JsonProperty("name")
     private String name;
+
+    public Contact(int contId, String name) {
+        this.contId = contId;
+        this.name = name;
+    }
 
     @Override
     public int hashCode() {
