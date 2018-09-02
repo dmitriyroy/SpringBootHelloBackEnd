@@ -32,7 +32,7 @@ public class HelloController {
 
     @RequestMapping(value = "/test", method = RequestMethod.GET, headers = "Accept=application/json")
     public List<Contact> getTestContact() {
-        System.out.println("\n------------>>>>>>>>>>>>>>>>> getTestContact()");
+        System.out.println("\n------------>>>>>>>>>>>>>>>>> getTestContact() - привет Всем!!!");
             List<Contact> outList = new ArrayList<>();
             outList.add(new Contact(123,"Вася"));
             outList.add(new Contact(234,"Петя"));
