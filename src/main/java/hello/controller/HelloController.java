@@ -37,7 +37,7 @@ public class HelloController {
             outList.add(new Contact(123,"Вася"));
             outList.add(new Contact(234,"Петя"));
             outList.add(new Contact(345,"Миша"));
-            outList.add(new Contact(456,"Димаqwerty"));
+            outList.add(new Contact(456,"Димаqwerty_23456"));
         return outList;
     }
 
