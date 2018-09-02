@@ -36,7 +36,7 @@ public class HelloController {
             List<Contact> outList = new ArrayList<>();
             outList.add(new Contact(123,"Вася"));
             outList.add(new Contact(234,"Петя"));
-            outList.add(new Contact(345,"Миша"));
+            outList.add(new Contact(345,"Миша_1234567980"));
             outList.add(new Contact(456,"Димаqwerty_23456"));
         return outList;
     }
